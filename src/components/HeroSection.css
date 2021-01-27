@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neuton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+/* classNames for all components */
+/* .home__hero-section {
+  color: black;
+  padding: 90px 0;
+} */
+
+.darkBg {
+  background-color: rgb(48, 48, 48);
+}
+
+.orangeBg {
+  background-color: rgb(255, 115, 0);
+}
+
+.row {
+  display: flex;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch;
+}
+
+.col {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.dark {
+  color: #37291c;
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-family: "Roboto", serif;
+  font-size: 50px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: rgb(2, 39, 247);
+  text-align: center;
+}
+
+/* CSS Styling for Kim_HomePage */
+
+.home__hero-section {
+  color: black;
+  padding: 90px 0;
+}
+
+.home__hero-row {
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.home__hero-text-wrapper {
+  max-width: 700px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.top-line {
+  color: rgb(255, 115, 0);
+  font-family: "Roboto Slab", serif;
+  font-size: 45px;
+  line-height: 80px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.home__heading {
+  margin-bottom: 30px;
+  font-family: "Neuton", serif;
+  font-size: 50px;
+  line-height: 1.1;
+  letter-spacing: 0.4rem;
+  font-weight: 300;
+  color: rgb(2, 39, 247);
+  text-align: center;
+}
+
+.home__hero-subtitle {
+  margin-top: 50px;
+  max-width: 730px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.home__hero-img-wrapper {
+  max-width: 555px;
+}
+
+.home__hero-img {
+  max-width: 95%;
+  margin: 0 0 0 100px;
+}
+
+/* CSS Styling for Download Button on HomePage */
+
+.download__hero-section {
+  color: black;
+  padding: 90px 0;
+}
+
+.download__hero-row {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.download__hero-text-wrapper {
+  max-width: 700px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.download__heading {
+  margin-bottom: 24px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  line-height: 1.1;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  color: rgb(245, 243, 243);
+  text-align: center;
+}
+
+.download--button {
+  display: flex;
+  margin-top: 70px;
+  max-width: 700px;
+  justify-content: center;
+}
+
+.download__hero-imgApp {
+  display: flex;
+  max-width: 700px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.download__hero-imgPlay {
+  display: flex;
+  max-width: 700px;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+/* CSS Styling for BeatBoi component Home Page */
+.beatboi__hero-section {
+  color: black;
+  padding: 90px 0;
+}
+
+.beatboi__hero-row {
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.beatboi__hero-img-wrapper {
+  max-width: 555px;
+  padding: 25px;
+}
+
+.beatboi__hero-text-wrapper {
+  max-width: 700px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.beatboi__heading {
+  font-family: "Teko", sans-serif;
+  font-size: 80px;
+  /* line-height: 1.1; */
+  /* letter-spacing: 0.4rem; */
+  font-weight: 300;
+  color: rgb(247, 112, 2);
+  text-align: center;
+  padding-right: 80px;
+}
+
+.beatboi__hero-subtitle {
+  font-family: "Spectral", serif;
+  max-width: 550px;
+  font-size: 30px;
+  line-height: 55px;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 80px;
+  padding-right: 20px;
+}
+
+/* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */
+/* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */ /* CSS for TEAM PAGE */
+
+.team__hero-section {
+  color: black;
+  padding: 90px 0;
+}
+
+.team__container {
+  color: white;
+}
+
+.team__container h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+
+.team__hero-text-wrapper {
+  max-width: 400px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.team__heading {
+  font-size: 70px;
+  color: rgb(255, 115, 0);
+  font-weight: 300;
+}
+
+.team__profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+
+.team_profile {
+  flex-basis: 300px;
+}
+
+.team__profile .team__profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.team__profile-img {
+  margin-left: 50px;
+  padding: 4px;
+  align-items: center;
+}
+
+.team__profile:hover .team__profile-img {
+  filter: grayscale(0);
+}
+
+.team__user-name {
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 115, 0);
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.team__profile h5 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  color: #6b05ca;
+}
+
+.team__hero-subtitle {
+  margin-top: 20px;
+  max-width: 400px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .team__profiles {
+    flex-direction: column;
+  }
+
+  .team__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team__profile p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .team__heading {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  .team__profiles {
+    margin: 20px 0;
+  }
+
+  .team__profile p {
+    margin: 20px 10px 80px 10px;
+  }
+}
+
+.home__hero-img-wrapper {
+  max-width: 555px;
+}
+
+.home__hero-img {
+  max-width: 95%;
+  margin: 0 0 0 100px;
+}
+
+/* CSS Styling for Credits Page */
+
+.credits__hero-section {
+  padding: 120px;
+}
+
+.credits__heading {
+  margin-bottom: 24px;
+  font-family: "Roboto", serif;
+  font-size: 50px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: rgb(255, 115, 0);
+  text-align: center;
+}
+
+.credits__hero-text-wrapper {
+  max-width: 100%;
+  color: rgb(255, 115, 0);
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.credits__hero-subtitle {
+  color: black;
+  max-width: 440px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+/* Credits End */
+
+img {
+  border: 0;
+  max-width: 90%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Responsive layouts */
+
+/* #1 .container for all components */
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__hero-text-wrapper {
+    padding-bottom: 65px;
+  }
+
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
