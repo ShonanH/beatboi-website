@@ -6,7 +6,7 @@ function Team() {
   return (
     <>
       <Zeke_TeamPage {...Zeke_Team} />
-      <Poppy_Forms {...Poppy} />
+      {/* <Poppy_Forms {...Poppy} /> */}
     </>
   );
 }

@@ -175,6 +175,9 @@ export const Zeke_TeamPage = ({
   role2,
   role3,
   description1,
+  email1,
+  email2,
+  email3,
   description2,
   description3,
   img1,
@@ -197,7 +200,8 @@ export const Zeke_TeamPage = ({
             <div className="team__profile">
               <img src={img1} alt={alt1} className="team__profile-img" />
               <h3 class="team__user-name">{teamMember1}</h3>
-              <h5>{role1}</h5>
+              <h4>{role1}</h4>
+              <h5>{email1}</h5>
 
               <p
                 className={
@@ -212,7 +216,8 @@ export const Zeke_TeamPage = ({
             <div className="team__profile">
               <img src={img2} alt={alt2} className="team__profile-img" />
               <h3 class="team__user-name">{teamMember2}</h3>
-              <h5>{role2}</h5>
+              <h4>{role2}</h4>
+              <h5>{email2}</h5>
 
               <p
                 className={
@@ -227,7 +232,8 @@ export const Zeke_TeamPage = ({
             <div className="team__profile">
               <img src={img3} alt={alt3} className="team__profile-img" />
               <h3 class="team__user-name">{teamMember3}</h3>
-              <h5>{role3}</h5>
+              <h4>{role3}</h4>
+              <h5>{email3}</h5>
               <p
                 className={
                   lightTextDesc
@@ -245,47 +251,117 @@ export const Zeke_TeamPage = ({
   );
 };
 
-export const Poppy_Forms = ({
+// export const Poppy_Forms = ({
+//   lightBg,
+//   lightText,
+//   lightTextDesc,
+//   headline,
+//   description,
+// }) => {
+//   return (
+//     <>
+//       <form>
+//         <div
+//           className={
+//             lightBg ? "credits__hero-section" : "credits__hero-section darkBg"
+//           }
+//         >
+//           <div className="container">
+//             <div className="row credits__hero-row">
+//               <div className="col">
+//                 <div className="credits__hero-text-wrapper">
+//                   <h1 className={lightText ? "heading" : "heading dark"}>
+//                     {headline}
+//                   </h1>
+//                 </div>
+//               </div>
+//               <div className="col">
+//                 <div className="credits__hero-text-wrapper">
+//                   <p
+//                     className={
+//                       lightTextDesc
+//                         ? "credits__hero-subtitle"
+//                         : "credits__hero-subtitle dark"
+//                     }
+//                   >
+//                     {description}
+//                   </p>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </form>
+//     </>
+//   );
+// };
+
+///////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage//////
+///////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage//////
+
+export const BeatBoi_GameIdeas = ({
   lightBg,
   lightText,
-  lightTextDesc,
   headline,
-  description,
+  img1,
+  alt1,
+  img2,
+  alt2,
+  img3,
+  alt3,
 }) => {
   return (
     <>
-      <form>
-        <div
-          className={
-            lightBg ? "credits__hero-section" : "credits__hero-section darkBg"
-          }
-        >
-          <div className="container">
-            <div className="row credits__hero-row">
+      <div
+        className={
+          lightBg
+            ? "beatboi-page__hero-section"
+            : "beatboi-page__hero-section darkBg"
+        }
+      >
+        <div className="beatboi-page__container">
+          <div className="row beatboi-page__hero-row1">
+            <div className="beatboi-page__hero-text-wrapper">
+              <h1
+                className={
+                  lightText
+                    ? "beatboi-page__heading"
+                    : "beatboi-page__heading dark"
+                }
+              >
+                {headline}
+              </h1>
               <div className="col">
-                <div className="credits__hero-text-wrapper">
-                  <h1 className={lightText ? "heading" : "heading dark"}>
-                    {headline}
-                  </h1>
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={img1}
+                    alt={alt1}
+                    className="beatboi-page__hero-img"
+                  ></img>
                 </div>
               </div>
               <div className="col">
-                <div className="credits__hero-text-wrapper">
-                  <p
-                    className={
-                      lightTextDesc
-                        ? "credits__hero-subtitle"
-                        : "credits__hero-subtitle dark"
-                    }
-                  >
-                    {description}
-                  </p>
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={img2}
+                    alt={alt2}
+                    className="beatboi-page__hero-img"
+                  />
+                </div>
+              </div>
+              <div className="col">
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={img3}
+                    alt={alt3}
+                    className="beatboi-page__hero-img"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </form>
+      </div>
     </>
   );
 };

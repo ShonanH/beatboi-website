@@ -8,15 +8,16 @@ export const Zeke_Team = {
   teamMember3: "Shonan Hendre",
   role1: "Lead Design and Programmer",
   role2: "Lead Beat-Detection and Programmer",
-  role3: "Lead Level Management and Programmer",
+  role3: "Lead Level Management and Programmer.",
+  email1: "Email: chaber@conncoll.edu",
+  email2: "Email: apradha1@conncoll.edu",
+  email3: "Email: shendre@conncoll.edu",
   description1:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-
+    "Craig is the Lead Design and Programmer at JumpStart. Craig worked on Level Design components such as graphics and sprites. He is also a senior at Connecticut College where his favorite class is Entertainment Software Design",
   description2:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-
+    "Abhijeet (Abi) is a Programmer and Beat-Detection Lead at JumpStart. Abi worked on the beat meter and beat mechanics. Being a senior at Connecticut College, Abi often tells people how much he enjoyed his Entertainment Software Design class.",
   description3:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "Shonan is the Level Management Lead and Programmer at JumpStart. Shonan worked on scene transitions and soundeffects controls for the game. Apart from enjoying his senior year at Connecticut College, he also loves his Entertainment Software Design class.",
   img1: "images/craig.png",
   alt1: "",
   img2: "images/abi.png",
@@ -25,10 +26,10 @@ export const Zeke_Team = {
   alt3: "",
 };
 
-export const Poppy = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  headline: "alsfn",
-  description: "kanf",
-};
+// export const Poppy = {
+//   lightBg: false,
+//   lightText: true,
+//   lightTextDesc: true,
+//   headline: "alsfn",
+//   description: "kanf",
+// };

@@ -276,13 +276,22 @@
   font-size: 35px;
 }
 
-.team__profile h5 {
-  font-size: 18px;
+.team__profile h4 {
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   letter-spacing: 1.5px;
-  color: #6b05ca;
+  color: #d609f1;
+}
+
+.team__profile h5 {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  color: #0edaf5;
 }
 
 .team__hero-subtitle {
@@ -396,4 +405,55 @@ img {
     max-width: 100%;
     flex-basis: 100%;
   }
+}
+
+/* CSS Styling for BeatBoi Page */
+
+.beatboi-page__hero-section {
+  color: black;
+  padding: 90px 0;
+}
+
+.beatboi-page__container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.beatboi-page__hero-row1 {
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.beatboi-page__hero-text-wrapper {
+  max-width: 700px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.beatboi-page__heading {
+  margin-bottom: 30px;
+  font-family: "Neuton", serif;
+  font-size: 50px;
+  line-height: 1.1;
+  letter-spacing: 0.4rem;
+  font-weight: 300;
+  color: rgb(2, 39, 247);
+  text-align: center;
+}
+
+.beatboi-page__hero-img-wrapper {
+  max-width: 555px;
+}
+
+.beatboi-page__hero-img {
+  max-width: 95%;
+  display: block;
+  margin-left: 500px;
+  margin-right: auto;
 }
