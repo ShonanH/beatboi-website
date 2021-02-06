@@ -1,12 +1,11 @@
 import React from "react";
-import { Zeke_Team, Poppy } from "./DataTeam";
-import { Zeke_TeamPage, Poppy_Forms } from "../../HeroSection";
+import { Zeke_Team } from "./DataTeam";
+import { Zeke_TeamPage } from "../../HeroSection";
 
 function Team() {
   return (
     <>
       <Zeke_TeamPage {...Zeke_Team} />
-      {/* <Poppy_Forms {...Poppy} /> */}
     </>
   );
 }

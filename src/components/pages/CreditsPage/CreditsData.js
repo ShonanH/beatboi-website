@@ -1,5 +1,5 @@
 export const Kiki_Credits = {
-  lightBg: true,
+  lightBg: false,
   lightText: true,
   lightTextDesc: true,
   headline: "Credits",

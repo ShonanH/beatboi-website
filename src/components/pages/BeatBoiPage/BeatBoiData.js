@@ -1,23 +1,31 @@
 export const BeatBoi_Img = {
-  lightBg: true,
+  lightBg: false,
   lightText: true,
-  lightTextDesc: true,
-  img1: "images/gameshot1.png",
-  alt1: "Screenshot 1",
+  screenshotHeadline: "Game Screenshots",
+  screeenshot1: "images/gameshot1.png",
+  screeenshotAlt1: "Screenshot 1",
+  screeenshot2: "images/gameshot2.png",
+  screeenshotAlt2: "Screenshot 2",
+  screeenshot3: "images/gameshot3.png",
+  screeenshotAlt3: "Screenshot 3",
+  screeenshot4: "images/gameshot4.png",
+  screeenshotAlt4: "Screenshot 4",
 };
 
-export const BeatBoi_Img = {
-  lightBg: true,
+export const BeatBoi_Game = {
+  lightBg: false,
   lightText: true,
-  lightTextDesc: true,
-  img2: "images/gameshot2.png",
-  alt: "Screenshot 2",
-};
-
-export const BeatBoi_Img = {
-  lightBg: true,
-  lightText: true,
-  lightTextDesc: true,
-  img: "images/gameshot3.png",
-  alt: "Screenshot 3",
+  GameIdeasHeadline: "Early Game Ideas",
+  gameIdeas1: "images/storyboard1.png",
+  gameIdeasAlt1: "StoryBoard 1",
+  gameIdeas2: "images/storyboard2.png",
+  gameIdeasAlt2: "StoryBoard 1",
+  gameIdeas3: "images/storyboard3.png",
+  gameIdeasAlt3: "StoryBoard 1",
+  gameIdeas4: "images/storyboard4.png",
+  gameIdeasAlt4: "StoryBoard 1",
+  gameIdeas5: "images/storyboard5.png",
+  gameIdeasAlt5: "StoryBoard 5",
+  gameIdeas6: "images/storyboard6.png",
+  gameIdeasAlt6: "StoryBoard 6",
 };

@@ -1,11 +1,14 @@
 import React from "react";
-import { BeatBoiPage_Img } from "../../HeroSection";
-import { BeatBoi_Img } from "./BeatBoiData";
+import { BeatBoi_GameIdeas, BeatBoi_GameScreenshots } from "../../HeroSection";
+import { BeatBoi_Game, BeatBoi_Img } from "./BeatBoiData";
+import ContactForm from "./BugForm";
 
 function BeatBoi() {
   return (
     <>
-      <BeatBoiPage_Img {...BeatBoi_Img} />
+      <BeatBoi_GameIdeas {...BeatBoi_Game} />
+      <BeatBoi_GameScreenshots {...BeatBoi_Img} />
+      <ContactForm />
     </>
   );
 }

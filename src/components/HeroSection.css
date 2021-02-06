@@ -16,7 +16,7 @@
 }
 
 .orangeBg {
-  background-color: rgb(255, 115, 0);
+  background: rgb(24, 161, 5);
 }
 
 .row {
@@ -370,7 +370,7 @@
 }
 
 .credits__hero-subtitle {
-  color: black;
+  color: rgb(245, 241, 241);
   max-width: 440px;
   margin-bottom: 20px;
   font-size: 18px;
@@ -386,6 +386,81 @@ img {
   display: inline-block;
 }
 
+/* CSS Styling for BeatBoi Page */
+
+.beatboi-page__hero-section {
+  color: black;
+}
+
+.beatboi-page__hero-row1 {
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.beatboi-page__hero-text-wrapper {
+  max-width: 100%;
+  padding-top: 0;
+  padding-bottom: 60px;
+  align-items: center;
+}
+
+.beatboi-page__heading {
+  padding: 50px;
+  font-family: "Neuton", serif;
+  font-size: 50px;
+  line-height: 1.1;
+  letter-spacing: 0.4rem;
+  font-weight: 300;
+  color: rgb(50, 197, 5);
+  text-align: center;
+}
+
+.beatboi-page__hero-img-wrapper {
+  max-width: 555px;
+}
+
+.beatboi-page__hero-img {
+  max-width: 95%;
+  display: block;
+}
+
+.beatboi-page__hero-imgs {
+  max-width: 95%;
+  max-height: 400px;
+  display: block;
+}
+
+.beat_row1 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.beat_row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.beat_col {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 40%;
+  flex-basis: 50%;
+}
+
+.beat_col1 {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 40%;
+  flex-basis: 50%;
+}
 /* Responsive layouts */
 
 /* #1 .container for all components */
@@ -405,55 +480,4 @@ img {
     max-width: 100%;
     flex-basis: 100%;
   }
-}
-
-/* CSS Styling for BeatBoi Page */
-
-.beatboi-page__hero-section {
-  color: black;
-  padding: 90px 0;
-}
-
-.beatboi-page__container {
-  z-index: 1;
-  width: 100%;
-  max-width: 1700px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
-}
-
-.beatboi-page__hero-row1 {
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.beatboi-page__hero-text-wrapper {
-  max-width: 700px;
-  padding-top: 0;
-  padding-bottom: 60px;
-}
-
-.beatboi-page__heading {
-  margin-bottom: 30px;
-  font-family: "Neuton", serif;
-  font-size: 50px;
-  line-height: 1.1;
-  letter-spacing: 0.4rem;
-  font-weight: 300;
-  color: rgb(2, 39, 247);
-  text-align: center;
-}
-
-.beatboi-page__hero-img-wrapper {
-  max-width: 555px;
-}
-
-.beatboi-page__hero-img {
-  max-width: 95%;
-  display: block;
-  margin-left: 500px;
-  margin-right: auto;
 }

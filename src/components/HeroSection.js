@@ -298,17 +298,22 @@ export const Zeke_TeamPage = ({
 
 ///////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage//////
 ///////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage/////////////BeatBoiPage//////
-
 export const BeatBoi_GameIdeas = ({
   lightBg,
   lightText,
-  headline,
-  img1,
-  alt1,
-  img2,
-  alt2,
-  img3,
-  alt3,
+  GameIdeasHeadline,
+  gameIdeas1,
+  gameIdeasAlt1,
+  gameIdeas2,
+  gameIdeasAlt2,
+  gameIdeas3,
+  gameIdeasAlt3,
+  gameIdeas4,
+  gameIdeasAlt4,
+  gameIdeas5,
+  gameIdeasAlt5,
+  gameIdeas6,
+  gameIdeasAlt6,
 }) => {
   return (
     <>
@@ -319,41 +324,148 @@ export const BeatBoi_GameIdeas = ({
             : "beatboi-page__hero-section darkBg"
         }
       >
-        <div className="beatboi-page__container">
-          <div className="row beatboi-page__hero-row1">
-            <div className="beatboi-page__hero-text-wrapper">
-              <h1
-                className={
-                  lightText
-                    ? "beatboi-page__heading"
-                    : "beatboi-page__heading dark"
-                }
-              >
-                {headline}
-              </h1>
-              <div className="col">
+        <div className="container">
+          <div className="beatboi-page__hero-text-wrapper">
+            <h1
+              className={
+                lightText
+                  ? "beatboi-page__heading"
+                  : "beatboi-page__heading dark"
+              }
+            >
+              {GameIdeasHeadline}
+            </h1>
+            <div className="beat_row1 beatboi-page__hero-row1">
+              <div className="beat_col1">
                 <div className="beatboi__hero-img-wrapper">
                   <img
-                    src={img1}
-                    alt={alt1}
+                    src={gameIdeas1}
+                    alt={gameIdeasAlt1}
+                    className="beatboi-page__hero-imgs"
+                  ></img>
+                </div>
+              </div>
+              <div className="beat_col1">
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={gameIdeas2}
+                    alt={gameIdeasAlt2}
+                    className="beatboi-page__hero-imgs"
+                  />
+                </div>
+              </div>
+              <div className="beat_col1">
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={gameIdeas3}
+                    alt={gameIdeasAlt3}
+                    className="beatboi-page__hero-imgs"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="beat_row1 beatboi-page__hero-row1">
+              <div className="beat_col1">
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={gameIdeas4}
+                    alt={gameIdeasAlt4}
+                    className="beatboi-page__hero-imgs"
+                  />
+                </div>
+              </div>
+              <div className="beat_col1">
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={gameIdeas5}
+                    alt={gameIdeasAlt5}
+                    className="beatboi-page__hero-imgs"
+                  />
+                </div>
+              </div>
+              <div className="beat_col1">
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={gameIdeas6}
+                    alt={gameIdeasAlt6}
+                    className="beatboi-page__hero-imgs"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export const BeatBoi_GameScreenshots = ({
+  lightBg,
+  lightText,
+  screenshotHeadline,
+  screeenshot1,
+  screeenshotAlt1,
+  screeenshot2,
+  screeenshotAlt2,
+  screeenshot3,
+  screeenshotAlt3,
+  screeenshot4,
+  screeenshotAlt4,
+}) => {
+  return (
+    <>
+      <div
+        className={
+          lightBg
+            ? "beatboi-page__hero-section"
+            : "beatboi-page__hero-section darkBg"
+        }
+      >
+        <div className="container">
+          <div className="beatboi-page__hero-text-wrapper">
+            <h1
+              className={
+                lightText
+                  ? "beatboi-page__heading"
+                  : "beatboi-page__heading dark"
+              }
+            >
+              {screenshotHeadline}
+            </h1>
+            <div className="beat_row beatboi-page__hero-row1">
+              <div className="beat_col">
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={screeenshot1}
+                    alt={screeenshotAlt1}
                     className="beatboi-page__hero-img"
                   ></img>
                 </div>
               </div>
-              <div className="col">
+              <div className="beat_col">
                 <div className="beatboi__hero-img-wrapper">
                   <img
-                    src={img2}
-                    alt={alt2}
+                    src={screeenshot2}
+                    alt={screeenshotAlt2}
                     className="beatboi-page__hero-img"
                   />
                 </div>
               </div>
-              <div className="col">
+              <div className="beat_col">
                 <div className="beatboi__hero-img-wrapper">
                   <img
-                    src={img3}
-                    alt={alt3}
+                    src={screeenshot3}
+                    alt={screeenshotAlt3}
+                    className="beatboi-page__hero-img"
+                  />
+                </div>
+              </div>
+              <div className="beat_col">
+                <div className="beatboi__hero-img-wrapper">
+                  <img
+                    src={screeenshot4}
+                    alt={screeenshotAlt4}
                     className="beatboi-page__hero-img"
                   />
                 </div>
