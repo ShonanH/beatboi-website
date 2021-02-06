@@ -527,3 +527,53 @@ export const Kiki_CreditsPage = ({
     </>
   );
 };
+
+export const Download_Page = ({
+  lightBg,
+  lightText,
+  headline,
+  imgApp,
+  imgPlay,
+  altApp,
+  altPlay,
+}) => {
+  return (
+    <>
+      <div
+        className={
+          lightBg ? "download__hero-section" : "download__hero-section darkBg"
+        }
+      >
+        <div className="container">
+          <div className="row download__hero-row">
+            <div className="download__hero-text-wrapper">
+              <h1
+                className={
+                  lightText ? "download__heading" : "download__heading dark"
+                }
+              >
+                {headline}
+              </h1>
+              <div className="download--button">
+                <a href="https://apps.apple.com/us/app/beatboi/id1544905411">
+                  <img
+                    src={imgApp}
+                    alt={altApp}
+                    className="download__hero-imgApp"
+                  />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.JumpStart.BeatBoi">
+                  <img
+                    src={imgPlay}
+                    alt={altPlay}
+                    className="download__hero-imgPlay"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
