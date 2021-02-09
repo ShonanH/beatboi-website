@@ -123,7 +123,7 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 30px;
+  padding: 0px;
 }
 
 .download__hero-text-wrapper {
@@ -413,7 +413,7 @@ img {
   line-height: 1.1;
   letter-spacing: 0.4rem;
   font-weight: 300;
-  color: rgb(50, 197, 5);
+  color: rgb(255, 115, 0);
   text-align: center;
 }
 
